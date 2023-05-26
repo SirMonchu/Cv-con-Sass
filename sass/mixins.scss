@@ -1,0 +1,15 @@
+// Mixin para centrar un bloque en su padre
+@mixin centrar-bloque {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  // Mixin para centrar elementos en línea dentro de un bloque
+  @mixin centrar-elementos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

@@ -1,0 +1,25 @@
+// Estilos para la sección "Módulos de 1º DAM"
+.modulos-dam {
+    table {
+      width: 100%;
+      border-collapse: collapse;
+  
+      th, td {
+        padding: 10px;
+        text-align: left;
+      }
+  
+      th {
+        background-color: $color-secundario;
+      }
+  
+      $total-filas: 6; // Número total de filas en la tabla
+  
+      @for $i from 1 through $total-filas {
+        tr:nth-child(#{$i}) {
+          background-color: nth($colores-filas, $i % length($colores-filas) + 1);
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,5 @@
+// Función para calcular anchura
+@function calcularAnchura($valor, $base: $dimension-contenedor) {
+    @return ($valor / $base) * 100%;
+  }
+  

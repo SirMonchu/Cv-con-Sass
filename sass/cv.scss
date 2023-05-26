@@ -1,0 +1,31 @@
+@import 'variables';
+@import 'estructuras_repetitivas';
+@import 'funciones';
+@import 'temas';
+@import 'mixins';
+@import 'menu';
+
+// Resto de estilos principales y contenido HTML
+body {
+  font-family: Arial, sans-serif;
+  color: $color-primario;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  @include centrar-elementos;
+  background-color: $color-secundario;
+  padding: 20px;
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  p {
+    font-size: 18px;
+    margin: 0;
+  }
+}

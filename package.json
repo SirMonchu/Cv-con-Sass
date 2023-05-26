@@ -1,0 +1,23 @@
+{
+  "name": "cv-con-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirMonchu/Cv-con-Sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SirMonchu/Cv-con-Sass/issues"
+  },
+  "homepage": "https://github.com/SirMonchu/Cv-con-Sass#readme",
+  "dependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.1.0"
+  }
+}

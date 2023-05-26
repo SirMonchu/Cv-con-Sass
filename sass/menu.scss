@@ -1,0 +1,13 @@
+.sticky-menu {
+    position: sticky;
+    top: 0;
+    background-color: $color-secundario;
+    padding: 10px;
+  
+    a {
+      margin: 0 10px;
+      color: $color-primario;
+      text-decoration: none;
+    }
+  }
+  
